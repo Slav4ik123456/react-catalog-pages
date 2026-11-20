@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: #f3f6fa;
+}
+
+.app {
+    max-width: 820px;
+    margin: 24px auto;
+    padding: 20px;
+    font-family: system-ui, sans-serif;
+    color: #24354d;
+}
+
+.panel {
+    padding: 16px;
+    background: white;
+}
+
+.disclosure {
+    padding: 12px 0;
+    border-bottom: 1px solid #ccd5df;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 16px 0;
+}
+
+button,
+input {
+    font: inherit;
+    padding: 8px 12px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #16798a;
+    outline-offset: 2px;
+}
+
+.note {
+    margin: 16px 0;
+    padding: 12px;
+    background: #dcecf2;
+}
+
+.spacer {
+    height: 65vh;
+}
