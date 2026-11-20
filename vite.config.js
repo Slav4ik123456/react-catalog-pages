@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 
 export default defineConfig({
-  base: '/react-catalog-pages',
+  base: '/react-catalog-pages/',
   plugins: [react()],
   server: {
     proxy: {
